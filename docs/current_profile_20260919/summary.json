@@ -1,0 +1,23 @@
+{
+  "scope": "KNOWN_MAP_GEOMETRY_ONLY_NOT_FLIGHT_GATE_OR_DETECTION",
+  "rows": [
+    {
+      "strategy": "high",
+      "cases": 10,
+      "geometry_feasible": 9,
+      "center_all_three_count": 7,
+      "center_time_median_s": 26.196155023326018,
+      "refine_all_three_count": 4,
+      "refine_time_median_s": 26.984936173344543
+    },
+    {
+      "strategy": "low_coverage",
+      "cases": 10,
+      "geometry_feasible": 10,
+      "center_all_three_count": 10,
+      "center_time_median_s": 108.35739772944652,
+      "refine_all_three_count": 9,
+      "refine_time_median_s": 121.18895786107328
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+schema_version: 1
+scope: CURRENT_SCENE_GEOMETRY_SCREEN_ONLY
+# FC altitude above ground; fixed heading, rigid camera (no gimbal).
+high_agl_m: 2.6
+low_agl_m: 1.4
+camera_offset_z_m: -0.16
+body_rpy_deg: [0.0, 0.0, 0.0]
+guard_dimensions_m: [0.55, 0.55, 0.40]
+guard_already_inflated: true
+# Do not add the original robustness padding a second time.
+additional_clearance_m: 0.0
+navigation_column_top_m: 4.0
+planning_bounds_m: [-4.8, 4.8, -0.5, 7.4]
+search_bounds_m: [-4.3, 4.3, 0.0, 7.1]
+resolution_m: 0.10
+max_endpoint_shift_m: 0.60
+high_route_xy: [[0.0, 0.0], [-3.5, 1.0], [3.5, 1.0], [3.5, 5.5], [-3.5, 5.5], [-3.5, 1.0]]
+low_lane_spacing_m: 0.7
+# Nominal actual-motion proxies, not following distances or velocity guarantees.
+high_speed_mps: 0.8
+low_speed_mps: 0.6
+turn_penalty_s: 1.0
+sample_hz: 10.0
+max_route_samples: 50000
+visibility_hold_s: 0.2
+required_classes: [bridge, panzer, red_cross]
+# The imported exclusion radius is an approximate canopy/pedestal footprint.
+# LOS height is an explicit sensitivity assumption, not a reconstructed mesh.
+tree_los_height_m: 1.8
+detector_probability: null
+flight_dynamics_or_gate_model: false

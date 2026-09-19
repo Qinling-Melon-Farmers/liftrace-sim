@@ -1,0 +1,1506 @@
+{
+  "schema_version": 1,
+  "scope": "OFFLINE_FROZEN_SCENES_NOT_DETECTOR_OR_FLIGHT_GATE",
+  "sources": [
+    {
+      "matrix": "/home/xhj/liftrace-worktrees/r2026-high-view-search/docs/verification/high_fast_five_20260915/matrix.json",
+      "revision": "20b1a0fe0f991af19ec437e10cba5dc3bcbd9e76"
+    },
+    {
+      "matrix": "/home/xhj/liftrace-worktrees/r2026-high-view-search/docs/verification/high_fast_new_seeds_20260915/matrix.json",
+      "revision": "92bd3eed45191a69fbbaa4356e9afc7292ce9f76"
+    }
+  ],
+  "cases": [
+    {
+      "seed": 31,
+      "source": "20b1a0fe0f991af19ec437e10cba5dc3bcbd9e76",
+      "run": "high_fast_five_seed31_20260915_101053",
+      "walls": [
+        {
+          "id": "Wall_1",
+          "x": 0.0,
+          "y": -0.6,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_9",
+          "x": 0.0,
+          "y": 9.2,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_11",
+          "x": 4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_12",
+          "x": -4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_13",
+          "x": 0.75,
+          "y": 7.5,
+          "size_x": 8.1,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_20_south",
+          "x": -1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_22_north",
+          "x": 1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        }
+      ],
+      "trees": [
+        {
+          "id": "combined_tree_0",
+          "x": 1.3292634707199893,
+          "y": 2.374614399301953,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_1",
+          "x": 2.2962965646667817,
+          "y": 3.0873274318391033,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_2",
+          "x": -2.2573313602029583,
+          "y": 2.0725324345669685,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_3",
+          "x": -2.6895242052091706,
+          "y": 4.5553366857252,
+          "radius": 0.43
+        }
+      ],
+      "targets": [
+        {
+          "class_name": "tent",
+          "x": -1.0288,
+          "y": 5.0393,
+          "yaw": -1.8944
+        },
+        {
+          "class_name": "pillbox",
+          "x": -3.4686,
+          "y": 0.4108,
+          "yaw": -1.0662
+        },
+        {
+          "class_name": "bridge",
+          "x": 1.5568,
+          "y": 0.6063,
+          "yaw": -0.8489
+        },
+        {
+          "class_name": "panzer",
+          "x": 0.3424,
+          "y": 3.1268,
+          "yaw": 2.8596
+        },
+        {
+          "class_name": "red_cross",
+          "x": 4.2221,
+          "y": 2.7639,
+          "yaw": -1.82
+        }
+      ],
+      "camera": {
+        "width": 1280,
+        "height": 720,
+        "K": [
+          725.3510059644434,
+          0.0,
+          631.6718631370258,
+          0.0,
+          725.3510059644434,
+          397.5663813311627,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          0.00586686,
+          0.0179105,
+          -0.00100641,
+          0.00147156,
+          -0.0264851
+        ]
+      },
+      "actual_gate": "FAIL",
+      "actual_reason": "manager_failed",
+      "actual_commits": 0,
+      "actual_mission_ros_s": null,
+      "input_scope": "Frozen world wall boxes + spawn exclusion footprints; trees are approximate, no truth enters flight control",
+      "actual_policy": "high_fast"
+    },
+    {
+      "seed": 32,
+      "source": "20b1a0fe0f991af19ec437e10cba5dc3bcbd9e76",
+      "run": "high_fast_five_seed32_20260915_101502",
+      "walls": [
+        {
+          "id": "Wall_1",
+          "x": 0.0,
+          "y": -0.6,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_9",
+          "x": 0.0,
+          "y": 9.2,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_11",
+          "x": 4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_12",
+          "x": -4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_13",
+          "x": 0.75,
+          "y": 7.5,
+          "size_x": 8.1,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_20_south",
+          "x": -1.6,
+          "y": 8.75,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_22_north",
+          "x": 1.6,
+          "y": 8.75,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        }
+      ],
+      "trees": [
+        {
+          "id": "combined_tree_0",
+          "x": 2.6548639362649222,
+          "y": 3.9731876692777615,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_1",
+          "x": 1.2671228147484825,
+          "y": 3.2048718510067498,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_2",
+          "x": -2.2050213424207685,
+          "y": 6.597032912394907,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_3",
+          "x": 0.7090738640452727,
+          "y": 4.433117311336616,
+          "radius": 0.43
+        }
+      ],
+      "targets": [
+        {
+          "class_name": "tent",
+          "x": -4.0568,
+          "y": 1.2303,
+          "yaw": -2.6295
+        },
+        {
+          "class_name": "pillbox",
+          "x": -3.8377,
+          "y": 3.6223,
+          "yaw": -2.3829
+        },
+        {
+          "class_name": "bridge",
+          "x": 2.4506,
+          "y": 0.5239,
+          "yaw": 3.0018
+        },
+        {
+          "class_name": "panzer",
+          "x": 3.2913,
+          "y": 6.2763,
+          "yaw": -2.4383
+        },
+        {
+          "class_name": "red_cross",
+          "x": 4.353,
+          "y": 1.1335,
+          "yaw": -2.1392
+        }
+      ],
+      "camera": {
+        "width": 1280,
+        "height": 720,
+        "K": [
+          725.3510059644434,
+          0.0,
+          631.6718631370258,
+          0.0,
+          725.3510059644434,
+          397.5663813311627,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          0.00586686,
+          0.0179105,
+          -0.00100641,
+          0.00147156,
+          -0.0264851
+        ]
+      },
+      "actual_gate": "FAIL",
+      "actual_reason": "manager_failed",
+      "actual_commits": 0,
+      "actual_mission_ros_s": null,
+      "input_scope": "Frozen world wall boxes + spawn exclusion footprints; trees are approximate, no truth enters flight control",
+      "actual_policy": "high_fast"
+    },
+    {
+      "seed": 33,
+      "source": "20b1a0fe0f991af19ec437e10cba5dc3bcbd9e76",
+      "run": "high_fast_five_seed33_20260915_101944",
+      "walls": [
+        {
+          "id": "Wall_1",
+          "x": 0.0,
+          "y": -0.6,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_9",
+          "x": 0.0,
+          "y": 9.2,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_11",
+          "x": 4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_12",
+          "x": -4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_13",
+          "x": 0.75,
+          "y": 7.5,
+          "size_x": 8.1,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_20_south",
+          "x": -1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_22_north",
+          "x": 1.6,
+          "y": 8.75,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        }
+      ],
+      "trees": [
+        {
+          "id": "combined_tree_0",
+          "x": -0.7244952777486615,
+          "y": 6.349245982290512,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_1",
+          "x": 0.48854175075457906,
+          "y": 1.452557702302861,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_2",
+          "x": 2.3322952788880045,
+          "y": 1.763172406450125,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_3",
+          "x": -3.047264305108551,
+          "y": 1.0507317295036422,
+          "radius": 0.43
+        }
+      ],
+      "targets": [
+        {
+          "class_name": "tent",
+          "x": 0.6752,
+          "y": 4.6211,
+          "yaw": 1.1395
+        },
+        {
+          "class_name": "pillbox",
+          "x": 3.9248,
+          "y": 1.0108,
+          "yaw": -2.4048
+        },
+        {
+          "class_name": "bridge",
+          "x": 0.2714,
+          "y": 3.1066,
+          "yaw": -2.7896
+        },
+        {
+          "class_name": "panzer",
+          "x": -1.9076,
+          "y": 2.005,
+          "yaw": 3.0161
+        },
+        {
+          "class_name": "red_cross",
+          "x": 4.1087,
+          "y": 4.0004,
+          "yaw": -1.3544
+        }
+      ],
+      "camera": {
+        "width": 1280,
+        "height": 720,
+        "K": [
+          725.3510059644434,
+          0.0,
+          631.6718631370258,
+          0.0,
+          725.3510059644434,
+          397.5663813311627,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          0.00586686,
+          0.0179105,
+          -0.00100641,
+          0.00147156,
+          -0.0264851
+        ]
+      },
+      "actual_gate": "PASS",
+      "actual_reason": "all_checks_passed",
+      "actual_commits": 3,
+      "actual_mission_ros_s": 224.367000001,
+      "input_scope": "Frozen world wall boxes + spawn exclusion footprints; trees are approximate, no truth enters flight control",
+      "actual_policy": "high_fast"
+    },
+    {
+      "seed": 34,
+      "source": "20b1a0fe0f991af19ec437e10cba5dc3bcbd9e76",
+      "run": "high_fast_five_seed34_20260915_103731",
+      "walls": [
+        {
+          "id": "Wall_1",
+          "x": 0.0,
+          "y": -0.6,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_9",
+          "x": 0.0,
+          "y": 9.2,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_11",
+          "x": 4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_12",
+          "x": -4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_13",
+          "x": 0.75,
+          "y": 7.5,
+          "size_x": 8.1,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_20_south",
+          "x": -1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_22_north",
+          "x": 1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        }
+      ],
+      "trees": [
+        {
+          "id": "combined_tree_0",
+          "x": -3.424799808417782,
+          "y": 2.55283525070476,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_1",
+          "x": -3.647717899852281,
+          "y": 1.0085571713827328,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_2",
+          "x": -2.491507692250935,
+          "y": 0.304719865748185,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_3",
+          "x": -2.4665340407081784,
+          "y": 5.421418295978038,
+          "radius": 0.43
+        }
+      ],
+      "targets": [
+        {
+          "class_name": "tent",
+          "x": 0.2778,
+          "y": 4.2445,
+          "yaw": 0.8588
+        },
+        {
+          "class_name": "pillbox",
+          "x": 3.669,
+          "y": 2.454,
+          "yaw": -1.3072
+        },
+        {
+          "class_name": "bridge",
+          "x": 2.6532,
+          "y": 5.5966,
+          "yaw": -1.1696
+        },
+        {
+          "class_name": "panzer",
+          "x": -2.3499,
+          "y": 3.9709,
+          "yaw": -1.8472
+        },
+        {
+          "class_name": "red_cross",
+          "x": 4.164,
+          "y": 4.2692,
+          "yaw": 0.2217
+        }
+      ],
+      "camera": {
+        "width": 1280,
+        "height": 720,
+        "K": [
+          725.3510059644434,
+          0.0,
+          631.6718631370258,
+          0.0,
+          725.3510059644434,
+          397.5663813311627,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          0.00586686,
+          0.0179105,
+          -0.00100641,
+          0.00147156,
+          -0.0264851
+        ]
+      },
+      "actual_gate": "FAIL",
+      "actual_reason": "manager_failed",
+      "actual_commits": 0,
+      "actual_mission_ros_s": null,
+      "input_scope": "Frozen world wall boxes + spawn exclusion footprints; trees are approximate, no truth enters flight control",
+      "actual_policy": "high_fast"
+    },
+    {
+      "seed": 35,
+      "source": "20b1a0fe0f991af19ec437e10cba5dc3bcbd9e76",
+      "run": "high_fast_five_seed35_20260915_104526",
+      "walls": [
+        {
+          "id": "Wall_1",
+          "x": 0.0,
+          "y": -0.6,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_9",
+          "x": 0.0,
+          "y": 9.2,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_11",
+          "x": 4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_12",
+          "x": -4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_13",
+          "x": 0.75,
+          "y": 7.5,
+          "size_x": 8.1,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_20_south",
+          "x": -1.6,
+          "y": 8.75,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_22_north",
+          "x": 1.6,
+          "y": 8.75,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        }
+      ],
+      "trees": [
+        {
+          "id": "combined_tree_0",
+          "x": 2.541903249410079,
+          "y": 5.335253342149252,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_1",
+          "x": -3.7767009695318885,
+          "y": 4.748650851584433,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_2",
+          "x": 0.966400920026909,
+          "y": 2.6320136487318195,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_3",
+          "x": 1.8503035479257237,
+          "y": 4.036477623736017,
+          "radius": 0.43
+        }
+      ],
+      "targets": [
+        {
+          "class_name": "tent",
+          "x": 0.4675,
+          "y": 5.5794,
+          "yaw": 2.1745
+        },
+        {
+          "class_name": "pillbox",
+          "x": -2.1685,
+          "y": 2.4696,
+          "yaw": -2.6197
+        },
+        {
+          "class_name": "bridge",
+          "x": 2.4035,
+          "y": 2.4508,
+          "yaw": -2.1312
+        },
+        {
+          "class_name": "panzer",
+          "x": -1.6801,
+          "y": 0.7721,
+          "yaw": -2.6578
+        },
+        {
+          "class_name": "red_cross",
+          "x": -3.2242,
+          "y": 0.0963,
+          "yaw": 2.5725
+        }
+      ],
+      "camera": {
+        "width": 1280,
+        "height": 720,
+        "K": [
+          725.3510059644434,
+          0.0,
+          631.6718631370258,
+          0.0,
+          725.3510059644434,
+          397.5663813311627,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          0.00586686,
+          0.0179105,
+          -0.00100641,
+          0.00147156,
+          -0.0264851
+        ]
+      },
+      "actual_gate": "PASS",
+      "actual_reason": "all_checks_passed",
+      "actual_commits": 3,
+      "actual_mission_ros_s": 211.857,
+      "input_scope": "Frozen world wall boxes + spawn exclusion footprints; trees are approximate, no truth enters flight control",
+      "actual_policy": "high_fast"
+    },
+    {
+      "seed": 36,
+      "source": "92bd3eed45191a69fbbaa4356e9afc7292ce9f76",
+      "run": "high_fast_new_seed36_20260915_180729",
+      "walls": [
+        {
+          "id": "Wall_1",
+          "x": 0.0,
+          "y": -0.6,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_9",
+          "x": 0.0,
+          "y": 9.2,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_11",
+          "x": 4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_12",
+          "x": -4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_13",
+          "x": 0.75,
+          "y": 7.5,
+          "size_x": 8.1,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_20_south",
+          "x": -1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_22_north",
+          "x": 1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        }
+      ],
+      "trees": [
+        {
+          "id": "combined_tree_0",
+          "x": 3.057777797242224,
+          "y": 0.607157211235122,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_1",
+          "x": 0.4038946118353959,
+          "y": 2.77798549567814,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_2",
+          "x": 0.7047104219536777,
+          "y": 6.263363630282476,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_3",
+          "x": -3.3285254940169606,
+          "y": 1.2733751689527715,
+          "radius": 0.43
+        }
+      ],
+      "targets": [
+        {
+          "class_name": "tent",
+          "x": 2.7831,
+          "y": 6.588,
+          "yaw": 1.6629
+        },
+        {
+          "class_name": "pillbox",
+          "x": -2.4226,
+          "y": 5.4166,
+          "yaw": 0.152
+        },
+        {
+          "class_name": "bridge",
+          "x": -0.6491,
+          "y": 4.0367,
+          "yaw": -1.9826
+        },
+        {
+          "class_name": "panzer",
+          "x": 3.7369,
+          "y": 2.6758,
+          "yaw": 1.291
+        },
+        {
+          "class_name": "red_cross",
+          "x": -3.6148,
+          "y": 3.5288,
+          "yaw": -1.1025
+        }
+      ],
+      "camera": {
+        "width": 1280,
+        "height": 720,
+        "K": [
+          725.3510059644434,
+          0.0,
+          631.6718631370258,
+          0.0,
+          725.3510059644434,
+          397.5663813311627,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          0.00586686,
+          0.0179105,
+          -0.00100641,
+          0.00147156,
+          -0.0264851
+        ]
+      },
+      "actual_gate": "FAIL",
+      "actual_reason": "manager_failed",
+      "actual_commits": 3,
+      "actual_mission_ros_s": null,
+      "input_scope": "Frozen world wall boxes + spawn exclusion footprints; trees are approximate, no truth enters flight control",
+      "actual_policy": "high_fast"
+    },
+    {
+      "seed": 37,
+      "source": "92bd3eed45191a69fbbaa4356e9afc7292ce9f76",
+      "run": "high_fast_new_seed37_20260915_182936",
+      "walls": [
+        {
+          "id": "Wall_1",
+          "x": 0.0,
+          "y": -0.6,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_9",
+          "x": 0.0,
+          "y": 9.2,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_11",
+          "x": 4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_12",
+          "x": -4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_13",
+          "x": 0.75,
+          "y": 7.5,
+          "size_x": 8.1,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_20_south",
+          "x": -1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_22_north",
+          "x": 1.6,
+          "y": 8.75,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        }
+      ],
+      "trees": [
+        {
+          "id": "combined_tree_0",
+          "x": -1.9907965740011435,
+          "y": 3.8005812527836094,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_1",
+          "x": -1.5464913428499476,
+          "y": 6.25434599551307,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_2",
+          "x": 2.354891769323019,
+          "y": 2.981674421436518,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_3",
+          "x": -1.9074603292198327,
+          "y": 1.3576087385269717,
+          "radius": 0.43
+        }
+      ],
+      "targets": [
+        {
+          "class_name": "tent",
+          "x": 1.7472,
+          "y": 0.242,
+          "yaw": 1.4837
+        },
+        {
+          "class_name": "pillbox",
+          "x": 1.131,
+          "y": 6.3196,
+          "yaw": -0.3526
+        },
+        {
+          "class_name": "bridge",
+          "x": 1.258,
+          "y": 2.4908,
+          "yaw": 2.8879
+        },
+        {
+          "class_name": "panzer",
+          "x": 1.7563,
+          "y": 4.3654,
+          "yaw": 2.961
+        },
+        {
+          "class_name": "red_cross",
+          "x": -2.0935,
+          "y": 2.5664,
+          "yaw": 2.126
+        }
+      ],
+      "camera": {
+        "width": 1280,
+        "height": 720,
+        "K": [
+          725.3510059644434,
+          0.0,
+          631.6718631370258,
+          0.0,
+          725.3510059644434,
+          397.5663813311627,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          0.00586686,
+          0.0179105,
+          -0.00100641,
+          0.00147156,
+          -0.0264851
+        ]
+      },
+      "actual_gate": "PASS",
+      "actual_reason": "all_checks_passed",
+      "actual_commits": 3,
+      "actual_mission_ros_s": 217.404,
+      "input_scope": "Frozen world wall boxes + spawn exclusion footprints; trees are approximate, no truth enters flight control",
+      "actual_policy": "high_fast"
+    },
+    {
+      "seed": 38,
+      "source": "92bd3eed45191a69fbbaa4356e9afc7292ce9f76",
+      "run": "high_fast_new_seed38_20260915_184340",
+      "walls": [
+        {
+          "id": "Wall_1",
+          "x": 0.0,
+          "y": -0.6,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_9",
+          "x": 0.0,
+          "y": 9.2,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_11",
+          "x": 4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_12",
+          "x": -4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_13",
+          "x": 0.75,
+          "y": 7.5,
+          "size_x": 8.1,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_20_south",
+          "x": -1.6,
+          "y": 8.75,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_22_north",
+          "x": 1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        }
+      ],
+      "trees": [
+        {
+          "id": "combined_tree_0",
+          "x": -3.3238164343599887,
+          "y": 3.2940654788930384,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_1",
+          "x": 3.632228852182452,
+          "y": 3.802629737998762,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_2",
+          "x": -2.2613871808454107,
+          "y": 2.452305605758217,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_3",
+          "x": 2.2278596712855023,
+          "y": 3.197211830526588,
+          "radius": 0.43
+        }
+      ],
+      "targets": [
+        {
+          "class_name": "tent",
+          "x": 1.0371,
+          "y": 0.8777,
+          "yaw": -2.9872
+        },
+        {
+          "class_name": "pillbox",
+          "x": -1.637,
+          "y": 5.3854,
+          "yaw": -0.1537
+        },
+        {
+          "class_name": "bridge",
+          "x": 1.0829,
+          "y": 3.7772,
+          "yaw": -1.5695
+        },
+        {
+          "class_name": "panzer",
+          "x": 0.3493,
+          "y": 5.0584,
+          "yaw": 1.5537
+        },
+        {
+          "class_name": "red_cross",
+          "x": 4.4104,
+          "y": 4.4788,
+          "yaw": 2.4733
+        }
+      ],
+      "camera": {
+        "width": 1280,
+        "height": 720,
+        "K": [
+          725.3510059644434,
+          0.0,
+          631.6718631370258,
+          0.0,
+          725.3510059644434,
+          397.5663813311627,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          0.00586686,
+          0.0179105,
+          -0.00100641,
+          0.00147156,
+          -0.0264851
+        ]
+      },
+      "actual_gate": "FAIL",
+      "actual_reason": "actual_collision",
+      "actual_commits": 2,
+      "actual_mission_ros_s": null,
+      "input_scope": "Frozen world wall boxes + spawn exclusion footprints; trees are approximate, no truth enters flight control",
+      "actual_policy": "high_fast"
+    },
+    {
+      "seed": 39,
+      "source": "92bd3eed45191a69fbbaa4356e9afc7292ce9f76",
+      "run": "high_fast_new_seed39_20260915_184841",
+      "walls": [
+        {
+          "id": "Wall_1",
+          "x": 0.0,
+          "y": -0.6,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_9",
+          "x": 0.0,
+          "y": 9.2,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_11",
+          "x": 4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_12",
+          "x": -4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_13",
+          "x": 0.75,
+          "y": 7.5,
+          "size_x": 8.1,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_20_south",
+          "x": -1.6,
+          "y": 8.75,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_22_north",
+          "x": 1.6,
+          "y": 8.75,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        }
+      ],
+      "trees": [
+        {
+          "id": "combined_tree_0",
+          "x": 3.6749670714058187,
+          "y": 4.623889970718388,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_1",
+          "x": 1.7599864572064243,
+          "y": 3.8392410216125334,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_2",
+          "x": 0.6802521187205466,
+          "y": 5.082208729915724,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_3",
+          "x": -1.540946551187627,
+          "y": 3.9534518304419954,
+          "radius": 0.43
+        }
+      ],
+      "targets": [
+        {
+          "class_name": "tent",
+          "x": -2.7854,
+          "y": 2.6217,
+          "yaw": 1.3585
+        },
+        {
+          "class_name": "pillbox",
+          "x": -3.0883,
+          "y": 6.099,
+          "yaw": -0.2502
+        },
+        {
+          "class_name": "bridge",
+          "x": -0.731,
+          "y": 2.9196,
+          "yaw": -1.5237
+        },
+        {
+          "class_name": "panzer",
+          "x": 2.4219,
+          "y": 6.5252,
+          "yaw": -1.1269
+        },
+        {
+          "class_name": "red_cross",
+          "x": 0.1283,
+          "y": 1.9284,
+          "yaw": -3.1383
+        }
+      ],
+      "camera": {
+        "width": 1280,
+        "height": 720,
+        "K": [
+          725.3510059644434,
+          0.0,
+          631.6718631370258,
+          0.0,
+          725.3510059644434,
+          397.5663813311627,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          0.00586686,
+          0.0179105,
+          -0.00100641,
+          0.00147156,
+          -0.0264851
+        ]
+      },
+      "actual_gate": "PASS",
+      "actual_reason": "all_checks_passed",
+      "actual_commits": 3,
+      "actual_mission_ros_s": 238.208000001,
+      "input_scope": "Frozen world wall boxes + spawn exclusion footprints; trees are approximate, no truth enters flight control",
+      "actual_policy": "high_fast"
+    },
+    {
+      "seed": 40,
+      "source": "92bd3eed45191a69fbbaa4356e9afc7292ce9f76",
+      "run": "high_fast_new_seed40_20260915_190259",
+      "walls": [
+        {
+          "id": "Wall_1",
+          "x": 0.0,
+          "y": -0.6,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_9",
+          "x": 0.0,
+          "y": 9.2,
+          "size_x": 10.0,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_11",
+          "x": 4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_12",
+          "x": -4.8999999999999995,
+          "y": 4.3,
+          "size_x": 0.2,
+          "size_y": 9.6,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_13",
+          "x": 0.75,
+          "y": 7.5,
+          "size_x": 8.1,
+          "size_y": 0.2,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_20_south",
+          "x": -1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        },
+        {
+          "id": "Wall_22_north",
+          "x": 1.6,
+          "y": 7.95,
+          "size_x": 0.2,
+          "size_y": 0.7,
+          "height": 1.5
+        }
+      ],
+      "trees": [
+        {
+          "id": "combined_tree_0",
+          "x": -0.9567739382521587,
+          "y": 3.823226467636456,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_1",
+          "x": -0.0307626282906428,
+          "y": 6.493368502015656,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_2",
+          "x": 0.08711705004554471,
+          "y": 1.274446764394319,
+          "radius": 0.43
+        },
+        {
+          "id": "combined_tree_3",
+          "x": 2.1108331167168632,
+          "y": 0.8493280705172758,
+          "radius": 0.43
+        }
+      ],
+      "targets": [
+        {
+          "class_name": "tent",
+          "x": -3.5676,
+          "y": 2.322,
+          "yaw": 0.6581
+        },
+        {
+          "class_name": "pillbox",
+          "x": 3.6456,
+          "y": 3.0702,
+          "yaw": -2.4278
+        },
+        {
+          "class_name": "bridge",
+          "x": -3.5532,
+          "y": 4.6943,
+          "yaw": 2.9254
+        },
+        {
+          "class_name": "panzer",
+          "x": 1.148,
+          "y": 3.2314,
+          "yaw": -2.2317
+        },
+        {
+          "class_name": "red_cross",
+          "x": 4.4351,
+          "y": 0.9301,
+          "yaw": 0.082
+        }
+      ],
+      "camera": {
+        "width": 1280,
+        "height": 720,
+        "K": [
+          725.3510059644434,
+          0.0,
+          631.6718631370258,
+          0.0,
+          725.3510059644434,
+          397.5663813311627,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          0.00586686,
+          0.0179105,
+          -0.00100641,
+          0.00147156,
+          -0.0264851
+        ]
+      },
+      "actual_gate": "FAIL",
+      "actual_reason": "actual_collision",
+      "actual_commits": 2,
+      "actual_mission_ros_s": null,
+      "input_scope": "Frozen world wall boxes + spawn exclusion footprints; trees are approximate, no truth enters flight control",
+      "actual_policy": "high_fast"
+    }
+  ]
+}
